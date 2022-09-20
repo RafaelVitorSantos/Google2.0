@@ -1,0 +1,38 @@
+body{
+  background-color: #222;
+  color: #eee;
+  font-family: monospace;
+}
+
+.container{
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input[type="text"]{
+  border-radius: 100px;
+  height: 35px;
+  width: 450px;
+  padding: 5px;
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: #333;
+}
+
+input[type="text"]::placeholder{
+  color: chartreuse;
+}
+
+button{
+  border-radius: 100px;
+  height: 45px;
+  width: 100px;
+  padding: 5px;
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: #333;
+}
+
